@@ -35,6 +35,17 @@ npm run storybook    # Start Storybook development server
 npm run build-storybook  # Build Storybook for production
 ```
 
+## 🧠 Assumptions
+
+The following assumptions guided the development of this Mini BI Dashboard:
+
+- **Data Source**: The chart and table data are based on mocked/static data as real APIs were not in scope for this implementation.
+- **Browser Support**: Users will primarily access the dashboard on modern browsers with JavaScript enabled, allowing for modern web technologies and features.
+- **Device Usage**: The dashboard will be used on both desktop and mobile devices, requiring full responsiveness and touch-friendly interactions.
+- **Accessibility Priority**: Accessibility is a high priority for all components due to potential enterprise usage, ensuring compliance with WCAG guidelines and screen reader compatibility.
+
+These assumptions influenced architectural decisions, technology choices, and the overall scope of features implemented in the current version.
+
 ## 🏗️ Architecture & Design Decisions
 
 ### Component Architecture
